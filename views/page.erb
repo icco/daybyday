@@ -1,0 +1,15 @@
+<html>
+   <head>
+      <title>Day By Day: <%= month %>/<%= day %>/<%= year %></title>
+   </head>
+   <body>
+      <div id="cont">
+         <h1><%= month %>/<%= day %>/<%= year %></h1>
+
+         <pre>
+<%= JSON.pretty_generate(lastfm) %>
+         </pre>
+         
+      </div>
+   </body>
+</html>
