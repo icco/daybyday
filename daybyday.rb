@@ -2,6 +2,11 @@
 #
 # A fun little sinatra app for displaying your personal data day by day. Still
 # not sure if this should maybe be in something closer to PHP...
+#
+# http://www.last.fm/api/show?service=278
+# http://pinboard.in/howto/#api
+# http://dev.twitter.com/
+# http://www.flickr.com/services/api/
 
 require 'rubygems'
 require 'sinatra'
